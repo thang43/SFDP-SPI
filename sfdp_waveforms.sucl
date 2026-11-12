@@ -1,0 +1,16 @@
+# Overview of the actual Icarus SFDP discovery simulation.
+variable_add tb_sfdp_discovery.start
+variable_add tb_sfdp_discovery.busy
+variable_add tb_sfdp_discovery.cs_n
+variable_add tb_sfdp_discovery.sclk
+variable_add tb_sfdp_discovery.mosi
+variable_add tb_sfdp_discovery.miso
+variable_add tb_sfdp_discovery.dut.read_address
+variable_add tb_sfdp_discovery.dut.read_valid
+variable_add tb_sfdp_discovery.dut.read_data
+variable_add tb_sfdp_discovery.bfpt_address
+variable_add tb_sfdp_discovery.capacity_bytes
+variable_add tb_sfdp_discovery.valid
+variable_add tb_sfdp_discovery.done
+variable_add tb_sfdp_discovery.error_code
+zoom_fit

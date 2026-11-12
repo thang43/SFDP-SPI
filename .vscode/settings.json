@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    "*.sv": "systemverilog",
+    "*.svh": "systemverilog"
+  },
+  "verilog.linting.linter": "iverilog",
+  "verilog.linting.path": "/opt/homebrew/bin",
+  "verilog.linting.iverilog.systemVerilog.standard": "SystemVerilog2012",
+  "verilog.linting.iverilog.arguments": "-Wall -y rtl -Y .sv",
+  "verilog.linting.iverilog.runAtFileLocation": false
+}
